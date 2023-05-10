@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body{
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Roboto Mono', monospace;
   margin: 0px;
   background-color: rgb(25,25,25);
   color: rgb(255, 255, 255);
 }
 
 header h1{
-  font-family: 'Castoro Titling', cursive;
   text-align: center;
 }
 
 header nav{
   width:100%;
   height: 60px;
-  background-color: rgb(220,20,60);
+  background-color: #cd203b;
 }
 
 header nav ol{
@@ -31,12 +30,12 @@ header nav ol>li{
   font-size: 0;
   width: 120px;
   height: 60px;
-  background-color: rgb(220,20,60);
+  background-color: #cd203b;
   text-align: center;
 }
 
 header nav ol>li:hover{
-  background-color: rgb(210,10,50);
+  background-color: #ba0432;
 }
 
 header nav ol>li a{
@@ -60,8 +59,9 @@ header nav ol>li a:visited{
   text-decoration: none;
 }
 
-section h2{
-  color:gold;
+h2{
+  color: gold;
+  padding: 40px;
   text-align: center;
 }
 
@@ -77,14 +77,6 @@ section h2{
   padding: 20px 0px 0px 0px;
   width: 900px;
   height: 200px;
-}
-
-.platforma .fade{
-  z-index: 100;
-  border-radius: 20px;
-  height: 300px;
-  width: 1000px;
-  background-image: linear-gradient(360deg, rgba(0, 0, 0, 1) 20%, rgba(255, 255, 255, 0) 70%);
 }
 
 section div{
@@ -110,12 +102,9 @@ section div .PojemnikNaObrazy img{
   transform: translate(-50%, -50%);
 }
 
-section div .PojemnikNaObrazy img:hover{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+section div .PojemnikNaObrazy:hover{
+  background-color: rgb(40,40,40);
+  }
 
 .PojemnikNaObrazy .legenda{
   width: 300px;
@@ -144,6 +133,6 @@ footer{
   width: 100%;
   height: 70px;
   line-height: 70px;
-  background-color: rgb(220,20,60);
+  background-color: #cd203b;
   text-align: center;
 }
