@@ -4,7 +4,7 @@ body{
   font-family: 'Roboto Mono', monospace;
   margin: 0px;
   background-color: rgb(29,29,29);
-  color: #d9d9da;
+  color: #CFB53B;
 }
 
 header h1{
@@ -73,7 +73,7 @@ section{
 
 .platforma{
   background-color: rgb(18,18,18);
-  width: 1000px;
+  width: 900px;
   height: 500px;
   border-radius: 20px;
 }
@@ -99,13 +99,8 @@ section div{
 }
 
 section div .PojemnikNaObrazy img{
-  border-radius: 20px 20px 0px 0px;
   width: 300px;
   height: 300px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 section div .PojemnikNaObrazy:hover{
