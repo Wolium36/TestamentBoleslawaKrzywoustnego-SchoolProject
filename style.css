@@ -4,10 +4,12 @@ body{
   font-family: 'Roboto Mono', monospace;
   margin: 0px;
   background-color: rgb(29,29,29);
-  color: rgb(255, 255, 255);
+  color: #d9d9da;
 }
 
 header h1{
+  padding: 20px;
+  font-size: 36px;
   text-align: center;
 }
 
@@ -19,15 +21,15 @@ header nav{
 
 header nav ol{
   display: block;
-  width:720px;
+  width:840px;
   list-style: none;
   padding:0px;
   margin: auto;
 }
 
 header nav ol>li{
+  padding: 0px 10px 0px 10px;
   float:left;
-  font-size: 0;
   width: 120px;
   height: 60px;
   background-color: #cd203b;
@@ -39,11 +41,11 @@ header nav ol>li:hover{
 }
 
 header nav ol>li a{
-  font-size:16px;
+  font-size:18px;
 }
 
 header nav ol>li a:link{
-  color: rgb(255, 255, 255);
+  color: #fff;
   text-decoration: none;
   display: block;
   display: flex;
@@ -55,7 +57,7 @@ header nav ol>li a:link{
 }
 
 header nav ol>li a:visited{
-  color:rgb(245, 245, 245);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -63,6 +65,10 @@ h2{
   color: #FF6347;
   padding: 40px;
   text-align: center;
+}
+
+section{
+  margin-top: 40px;
 }
 
 .platforma{
