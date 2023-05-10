@@ -3,7 +3,7 @@
 body{
   font-family: 'Roboto Mono', monospace;
   margin: 0px;
-  background-color: rgb(25,25,25);
+  background-color: rgb(29,29,29);
   color: rgb(255, 255, 255);
 }
 
@@ -60,13 +60,13 @@ header nav ol>li a:visited{
 }
 
 h2{
-  color: gold;
+  color: #FF6347;
   padding: 40px;
   text-align: center;
 }
 
 .platforma{
-  background-color: rgb(15,15,15);
+  background-color: rgb(18,18,18);
   width: 1000px;
   height: 500px;
   border-radius: 20px;
