@@ -1,0 +1,219 @@
+h2{
+    margin-bottom: 30px;
+}
+
+.gen{
+  width: 146px;
+  height: auto;
+  padding: 5px;
+  border: 2px solid #cd203b;
+  border-radius: 20px;
+
+  z-index: 100;
+  background-color: #eff2f9;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+.gen:hover{
+  transition: all 0.2s linear;
+  box-shadow: 0px 0px 10px #cd203b;
+}
+
+article{
+  width: 850px;
+}
+  
+section{
+  height: 850px;
+  position: relative;
+  border: 0 !important;
+}
+
+#bolIII{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bordsol{
+  border: 1px solid #63727f;
+  height: 0px; 
+  width: 0px;
+}
+
+.borddash{
+  border: 1px dashed #63727f;
+  height: 0px; 
+  width: 0px;
+}
+
+.long{
+  width: 700px;
+  position: absolute;
+  top: 12.6%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tiny{
+  width: 0px;
+  height: 28px;
+
+  position: absolute;
+  top: 12.7%;
+  left: 8.6%;
+  transform: translate(1px, 1px);
+}
+
+.leg1{
+  width: 30px;
+
+  position: absolute;
+  top: 1.3%;
+  left: 75%;
+}
+
+.bezpos{
+    width: 500px;
+    position: absolute;
+    left: 80%;
+    top:0%;
+}
+
+.leg2{
+  width: 30px;
+
+  position: absolute;
+  top: 4.5%;
+  left: 75%;
+}
+
+.dalszy{
+  width: 500px;
+  position: absolute;
+  left: 80%;
+  top:3%;
+}
+
+  #wladIII{
+    position: absolute;
+    top: 16.2%;
+    left: 0%;
+  }
+
+  #bolWys{
+    position: absolute;
+    top: 29%;
+    left: 0%;
+  }
+
+  #henI{
+    position: absolute;
+    top: 39.7%;
+    left: 0%;
+  }
+
+  #henII{
+    position: absolute;
+    top: 52.5%;
+    left: 0%;
+  }
+
+  #henIV{
+    position: absolute;
+    top: 65.5%;
+    left: 0%;
+  }
+
+  #bolIV{
+    position: absolute;
+    top: 16.2%;
+    left: 30%;
+    transform: translateX(-50%);
+  }
+
+  #mieIII{
+    position: absolute;
+    top: 16.2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #przI{
+    position: absolute;
+    top: 51%;
+    left: 30%;
+    transform: translateX(-50%);
+  }
+
+  #bolPob{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #przII{
+    position: absolute;
+    top: 65.5%;
+    left: 30%;
+    transform: translateX(-50%);
+  }
+
+  #hen{
+    position: absolute;
+    top: 16.2%;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+
+  #kazII{
+    position: absolute;
+    top: 16.2%;
+    left: 90%;
+    transform: translateX(-50%);
+  }
+
+  #KonI{
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    transform: translateX(-50%);
+  }
+
+  #kaz{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translateX(-50%);
+  }
+
+  #lesCza{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+
+  #wlaI{
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    transform: translateX(-50%);
+  }
+
+  #lesBia{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+
+  #bolWst{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translateX(-50%);
+  }
