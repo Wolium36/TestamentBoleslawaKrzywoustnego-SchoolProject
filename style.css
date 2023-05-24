@@ -12,6 +12,7 @@ body{
 
 header{
   height: 60px;
+
 }
 
 a{
@@ -129,15 +130,14 @@ h2{
   cursor: pointer;
 }
 
+.PojemnikNaObrazy:hover{
+  filter: drop-shadow(0px 0px 10px #cd203b);
+}
+
 .PojemnikNaObrazy img{
   width: 300px;
   height: 300px;
   border-radius: 20px;
-}
-
-.PojemnikNaObrazy:hover{
-  transition: all 0.2s linear;
-  filter: drop-shadow(0px 0px 10px #cd203b);
 }
 
 .PojemnikNaObrazy .legenda{
@@ -211,4 +211,23 @@ footer{
   color:#EFF2F9;
   background-color: #cd203b;
   text-align: center;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+  opacity: 0%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c6cdd2;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9eaab5;;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
 }
