@@ -92,23 +92,25 @@ section{
 
 h2{
   color: #cd203b;
-  padding: 40px 0px 10px 0px;
+  padding: 0px 0px 26px 0px;
   text-align: center;
 }
 
 .platforma{
-  width: 900px;
-  height: 500px;
+  width: 860px;
+  height: 480px;
+  padding: 20px;
   border-radius: 20px;
   margin: auto;
 
-  background-color: #d0d7dd;
+  filter:drop-shadow(0px 0px 10px #cd203b);
+  background-color: #EFF2F9;
 }
 
 .platforma .text{
-  padding: 20px 0px 0px 0px;
-  width: 900px;
-  height: 200px;
+  padding: 0px 0px 0px 0px;
+  width: 860px;
+  height: 480px;
   
   text-align: justify;
 }
@@ -162,7 +164,7 @@ h2{
 
 .artkuly{
   width: 920px;
-  height: 810px;
+  height: 405px;
   margin:auto;
 }
 
@@ -213,21 +215,18 @@ footer{
   text-align: center;
 }
 
-::-webkit-scrollbar {
-  height: 10px;
-  width: 10px;
-  opacity: 0%;
+p:first-of-type{
+	margin-top: 0px;
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: #c6cdd2;
-  border-radius: 20px;
+figure {
+  float: left;
+  flex-flow: column;
+  margin:0px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background-color: #9eaab5;;
-}
-
-::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0);
+figcaption {
+  color:#cd203b;
+  padding-bottom:5px;
+  text-align: center;
 }
