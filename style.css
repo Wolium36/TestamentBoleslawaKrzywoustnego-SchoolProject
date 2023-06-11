@@ -93,6 +93,64 @@ section{
   margin-top: 80px;
 }
 
+.czas{
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.osCzasu{
+  width: 1400px;
+  height: 10px;
+  border-radius: 10px;
+  z-index: 1000;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #cd203b;
+}
+
+.punkt{
+  width: 5px;
+  height: 40px;
+  border-radius: 10px;
+
+  position: absolute;
+  top:0;
+  left: 0;
+  transform: translateY(-37.5%);
+
+  background-color: #cd203b;
+}
+
+.wydarzenie{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+
+  position: absolute;
+  top:100%;
+  left: 0;
+
+  transform: translateX(-45%);
+  text-transform: uppercase;
+}
+
+.strzalka2{
+  width: 60px;
+  height: 10px;
+  border-radius: 10px;
+
+  position: absolute;
+  top:0%;
+  right: 0%;
+  
+
+  background-color: #cd203b;
+}
+
 h2{
   color: #cd203b;
   padding: 0px 0px 25px 0px;
@@ -139,6 +197,7 @@ h2{
 .PojemnikNaObrazy:hover{
   filter: drop-shadow(0px 0px 10px #cd203b);
 }
+
 
 .PojemnikNaObrazy img{
   width: 300px;
@@ -291,6 +350,7 @@ aside a{
 
   background-color: #63727f;
 }
+
 
 footer{
   margin-top: 20px;
