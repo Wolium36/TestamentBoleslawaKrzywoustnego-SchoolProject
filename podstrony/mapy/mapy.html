@@ -5,18 +5,26 @@
     <link href="../../style.css" rel="stylesheet"/>
     <link href="../podstronyStyle.css" rel="stylesheet"/>
     <title>Testament Bolesława Krzywoustnego</title>
+    <style>
+      section img{
+        border-radius: 0;
+      }
+      section div:not(:nth-child(3n)){
+        margin-right: 10px;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <a href="../index.html"><h1>TESTAMENT BOLESŁAWA KRZYWOUSTNEGO</h1></a>
+      <a href="../../index.html"><h1>TESTAMENT BOLESŁAWA KRZYWOUSTNEGO</h1></a>
       <div class="miejsce">
         <div class="rozdzielnik"></div>
       </div>
       <nav>
         <ol>
-          <li><a href="../genealogiaPiastow.html">Genealogia Piastów</a></li>
+          <li><a href="../genealogiaPiastow/genealogiaPiastow.html">Genealogia Piastów</a></li>
           <li><a href="../artykuly.html">Artykuły</a></li>
-          <li><a href="../wladcy/wladcy.html">Władcy</a></li>
+          <li><a href="../wladcy/wladcy.html">Książęta, władcy i królowie</a></li>
           <li><a href="../dzielnice.html">Dzielnice</a></li>
           <li class="active">Mapy</li>
         </ol>
@@ -24,8 +32,43 @@
       </nav>
     </header>
     <main>
-        <article>
+        <article style="width: 1200px;">
             <h2>Mapy</h2>
+            <section style="width: 1100px; height: 970px; margin: auto;">
+                <div style="float:left;" class="map">
+                  <figure>
+                    <img src="../../mapa.PNG" alt="mapa1138" style="width: 350px;"/>
+                    <figcaption>Mapa Polski 1138 r. <br/> z podziałem na dzielnice</figcaption>
+                  </figure>
+                </div>
+                <div style="float:left;" class="map">
+                  <figure>
+                    <img src="PolskaKazimierzaIISprawiedliwego.png" alt="mapaXIII" style="width: 350px;"/>
+                    <figcaption>Polska Kazimierza II Sprawiedliwego</figcaption>
+                  </figure>
+                </div>
+              </div>
+                <div style="float:left;" class="map">
+                  <figure>
+                    <img src="mapXIII.jpg" alt="PolskaKazimierzaIISprawiedliwego" style="width: 350px;"/>
+                    <figcaption>Polska w okresie rozbicia <br/> dzielnicowego około połowy XII w.</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div style="clear:both;"></div>
+              <div style="float:left;" class="map">
+                <figure>
+                  <img src="Nowy projekt.png" alt="mapa1320" style="width: 350px;"/>
+                  <figcaption>Ziemie polskie w latach 1275-1300</figcaption>
+                </figure>
+              </div>
+              <div style="float:left;" class="map">
+                <figure>
+                  <img src="../artykuly/mapAfterFull.jpg" alt="mapa1320" style="width: 350px;"/>
+                  <figcaption>Polska za panowania <br/> Władysława Łokietka</figcaption>
+                </figure>
+              </div>
+            </section>
         </article>
     </main>
     <footer>
